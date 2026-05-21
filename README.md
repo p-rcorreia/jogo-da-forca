@@ -1,22 +1,22 @@
 # Jogo da Forca em Java
 
-Jogo da forca para praticar logica, orientacao a objetos, manipulacao de texto e controle de estado da aplicacao.
+Jogo da forca para praticar lógica, orientação a objetos, manipulação de texto e controle de estado da aplicação.
 
-## Repositorio
+## Repositório
 
 [jogo-da-forca](https://github.com/p-rcorreia/jogo-da-forca.git)
 
 ## Objetivo
 
-Criar uma versao funcional do jogo da forca, com palavra secreta, tentativas e verificacao de vitoria ou derrota.
+Criar uma versão funcional do jogo da forca, com palavra secreta, tentativas e verificação de vitória ou derrota.
 
 ## Conceitos praticados
 
-- Orientacao a objetos
+- Orientação a objetos
 - Estruturas condicionais
 - Loops
-- Manipulacao de strings
-- Colecoes
+- Manipulação de strings
+- Coleções
 - Controle de estado
 
 ## Funcionalidades planejadas
@@ -25,15 +25,15 @@ Criar uma versao funcional do jogo da forca, com palavra secreta, tentativas e v
 - Registrar letras tentadas
 - Exibir progresso da palavra
 - Controlar quantidade de erros
-- Informar vitoria ou derrota
-- Opcional: interface grafica com JavaFX
+- Informar vitória ou derrota
+- Opcional: interface gráfica com JavaFX
 
 ## Status
 
 Planejado.
 
-## Evidencias para portfolio
+## Evidências para portfólio
 
 - Demonstração de uma partida
-- Explicacao da modelagem das classes
-- Possivel evolucao para interface grafica
+- Explicação da modelagem das classes
+- Possível evolução para interface gráfica
