@@ -1,6 +1,8 @@
 # Jogo da Forca em Java
 
-Jogo da forca para praticar lógica, orientação a objetos, manipulação de texto e controle de estado da aplicação.
+Jogo da forca executado no terminal, criado para praticar lógica de programação, manipulação de texto, coleções e controle de estado em Java.
+
+![Demonstração do Jogo da Forca](./assets/jogo-da-forca.gif)
 
 ## Repositório
 
@@ -8,32 +10,38 @@ Jogo da forca para praticar lógica, orientação a objetos, manipulação de te
 
 ## Objetivo
 
-Criar uma versão funcional do jogo da forca, com palavra secreta, tentativas e verificação de vitória ou derrota.
+Criar uma versão funcional do jogo da forca, com seleção aleatória de palavra secreta, leitura de chutes pelo terminal e verificação de vitória ou derrota.
 
 ## Conceitos praticados
 
-- Orientação a objetos
+- `ArrayList`
+- `Random`
+- `Scanner`
+- `StringBuilder`
 - Estruturas condicionais
-- Loops
-- Manipulação de strings
-- Coleções
-- Controle de estado
+- Loops `while` e `for`
+- Métodos de texto como `contains`, `charAt` e `replace`
+- Atualização de caracteres com `setCharAt`
+- Controle de estado com `boolean`
 
-## Funcionalidades planejadas
+## Funcionalidades
 
-- Selecionar palavra secreta
-- Registrar letras tentadas
-- Exibir progresso da palavra
-- Controlar quantidade de erros
-- Informar vitória ou derrota
-- Opcional: interface gráfica com JavaFX
+- Seleciona uma palavra secreta aleatoriamente.
+- Exibe a palavra oculta com traços.
+- Permite chutar letras pelo terminal.
+- Atualiza a palavra exibida quando a letra existe.
+- Informa a quantidade de tentativas restantes quando a letra está incorreta.
+- Finaliza o jogo com mensagem de vitória ou derrota.
+
+## Como executar
+
+Na pasta do projeto:
+
+```powershell
+javac Forca.java
+java Forca
+```
 
 ## Status
 
-Planejado.
-
-## Evidências para portfólio
-
-- Demonstração de uma partida
-- Explicação da modelagem das classes
-- Possível evolução para interface gráfica
+Concluído.
